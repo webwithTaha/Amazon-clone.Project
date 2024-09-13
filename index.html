@@ -1,0 +1,2071 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Amazon Clone</title>
+</head>
+
+<body>
+    <section>
+        <header>
+            <div class="header">
+                <!-- Amazon logo -->
+                <div class="logo">
+                    <img class="iconama" src="Amazon-Logo-White-PNG-Image.png" alt="Amazon Logo">
+                    <p class="com-uk">.co.Uk</p>
+                </div>
+
+                <!-- Delivery location -->
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <label for="ww">Deliver to Pakistan</label>
+                </div>
+
+                <!-- Search bar with dropdown categories -->
+                <div class="search-bar">
+                    <details>
+                        <summary class="category-btn">All</summary>
+                        <ul class="category-list">
+                            <li>Men</li>
+                            <li>Women</li>
+                            <li>Baby</li>
+                            <li>Girls</li>
+                            <li>Watches</li>
+                            <li>Clothes</li>
+                            <li>Shoes</li>
+                            <li>Sports</li>
+                            <li>Software</li>
+                            <li>Games</li>
+                            <li>Toys</li>
+                            <li>Home</li>
+                        </ul>
+                    </details>
+                    <input type="text" placeholder="Search Amazon">
+                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+
+                <!-- Currency and flag -->
+                <div class="currency">
+                    <details>
+                        <summary><img class="flaguk" src="download.jpeg" alt="UK Flag"></summary>
+                        <ul class="currency-list">
+                            <li>Change currency</li>
+                            <li>£ - GBP - British Pound</li>
+                            <hr>
+                            <li>You are shopping on Amazon.co.uk</li>
+                            <li>Change country / currency</li>
+                        </ul>
+                    </details>
+                </div>
+
+                <!-- Account and Lists -->
+                <div class="account">
+                    <details>
+                        <summary>Hello, Sign in Account/List</summary>
+                        <ul class="account-list">
+                            <li>Your Account</li>
+                            <li>Account</li>
+                            <li>Your Orders</li>
+                            <li>Your List</li>
+                            <li>Music</li>
+                            <li>Movies</li>
+                            <li>Your Pets</li>
+                            <li>Your Apps</li>
+                            <li>Software</li>
+                            <li>Games</li>
+                            <li>Prime Video</li>
+                        </ul>
+                    </details>
+                </div>
+
+                <!-- Returns and Basket -->
+                <div class="returns">
+                    <h3>Returns & Orders</h3>
+                </div>
+
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Basket</h3>
+                </div>
+            </div>
+        </header>
+
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <button class="closebtn" onclick="closeSidebar()">×</button>
+            <ul>
+                <li>Best Seller</li>
+                <li>New Releases</li>
+                <li>Today's Sales</li>
+                <li>Books</li>
+                <li>Home & Garden</li>
+                <li>Gift</li>
+                <li>Electronics</li>
+                <li>Toys & Games</li>
+                <li>Fashion</li>
+                <li>Beauty</li>
+                <li>PC & Video Games</li>
+                <li>Pet</li>
+                <li>Health</li>
+                <li>PC</li>
+            </ul>
+        </div>
+
+        <div class="head2">
+            <div class="jo" onclick="toggleSidebar()">
+                <i class="fa-solid fa-bars"></i>
+                <h2 class="ll">All</h2>
+            </div>
+
+            <li>Best Seller</li>
+            <li>New Releases</li>
+            <li>Today Sales's</li>
+            <li>Books</li>
+            <li>Home & Garden</li>
+            <li>Gift</li>
+            <li>Electronics</li>
+            <li>Toys & Games</li>
+            <li>Fashion</li>
+            <li>Beauty</li>
+            <li>Pc & Video Game's</li>
+            <li>Pet</li>
+            <li>Health</li>
+            <li>Pc</li>
+        </div>
+
+        <div class="header4">
+            <a class="aaa" href="#">Today's Deals</a>
+            <a class="aaa" href="#">Amazon.Com.Uk</a>
+            <a class="aaa" href="#">Resale</a>
+            <a class="aaa" href="#">Outlet</a>
+            <a class="aaa" href="#">Subscribe&Save</a>
+            <a class="aaa" href="#">Vouchers</a>
+            <a class="aaa" href="#">Prime Video</a>
+            <a class="aaa" href="#">Prime student</a>
+            <a class="aaa" href="#">location</a>
+            <a class="aaa" href="#">Moblie Apps</a>
+        </div>
+
+        <div class="allinone">
+            <div class="box1">
+                <h3 class="sidd">
+                    Eligible for free delivery
+                </h3>
+                <div class="che">
+                    <input class="loo" type="checkbox">
+                    <p class="fai">
+                        Free UK Delivery by Amazon
+                        Get FREE delivery on eligible orders dispatched by Amazon.
+
+                    </p>
+                </div>
+
+
+                <h4 class="dep">Department</h4>
+                <h5 class="mmm">Fashion</h5>
+                <p class="ment">
+                    Women's Blouses & Shirts <br>
+                    Women's Dresses <br>
+                    Men's T-Shirts <br>
+                    Women's Activewear <br>
+                    In-Ear Headphones <br>
+                    Kitchen & Home Appliances <br>
+                    Bedding & Linens
+                </p>
+
+                <h3 class="lll">Customer Review</h3>
+                <p id="hhh">⭐⭐⭐⭐⭐</p>
+
+                <h5 class="pri">Price</h5>
+                <h6 class="nmnm">£0–£62+</h6>
+
+                <h4 class="vv">Deals & Discounts</h4>
+                <a class="op" href="#">All Discounts</a>
+
+                <h4 class="vv">Brand Edit</h4>
+                <div class="inl">
+
+                    <input class="oioi" type="checkbox" name="" id="">
+                    <p class="ff">Popular Brands</p>
+                </div>
+
+                <h4 class="vv">Colors</h4>
+                <div class="col">
+                    <input type="color">
+                    <input type="color">
+                    <input type="color">
+                    <input type="color">
+                    <input type="color">
+                    <input type="color">
+                    <input type="color">
+                    <input type="color">
+                    <input type="color">
+                    <input type="color">
+                    <input type="color">
+                    <input type="color">
+                    <input type="color">
+                </div>
+
+            </div>
+
+            <div class="allone">
+                <div class="box2">
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/71DKAXmEdGL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £9.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/8127pUJF3SL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £6.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £40.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/712upb91-NL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £38.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/71BW8S3tIxL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £39.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/51nYK0BvLlL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £45.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/91ak+lvg0ML._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £35.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/81CqRM0U9vL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £15.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £230.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/91GlMRUwTnL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £18.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/51JBZhIH6OL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £8.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/51Sooruvr4L._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £17
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/81st0-1QDcL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £66.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/71Aw37uAHsL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £21.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/61Cbw5XiKLL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £21.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/5160s92Ov9L._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £45.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/61PQsi1XIML._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £17.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/51DUoDA9ltL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £5.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/51A8OhYvKGL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £16.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/910ZST7WJpL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £13.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/61Eze+HJBQL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £99.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/61Ag2ZsNDiL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £17.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/51Q5WpQgPrL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £10.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/61MXIg0ABgL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £17.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/71BzX2Q7P1L._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £11.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/71usLV6SBoL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £28.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/61l8OqwnJwL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £27.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/61KfzF8mmuL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £25.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/61EBCYadgxL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £21.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/71PE-Krf0CL._AC._SR360,460.jpg" alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £19.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/613Ymn69vJL._AC._SR360,460.jpg" alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £17.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/61iBTaOY-PL._AC._SR360,460.jpg" alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £16.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/81oo5vNTDvL._AC_UL480_QL65_.jpg" alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £91.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/81WLo2atU1L._AC_UL480_QL65_.jpg" alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £45.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/51trh0pjAjL._AC_UL480_QL65_.jpg" alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £66.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/61N+CzcA8vL._AC_UL480_QL65_.jpg" alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £17.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/61D3AuT--xL._AC_UL480_QL65_.jpg" alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £33.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/71rumw22mPL._AC_UY327_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £11.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/61-jGmh+qRL._AC_UY327_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £38.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/6136WOXZtIL._AC_UY327_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £27.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/71Ah1Tcni7L._AC_UY327_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £17.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/91-tzg8N8pL._AC_UY327_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £100.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/81W+fYqjU0L._AC_UY327_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £44.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/7178GRbNy7L._AC_UY327_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £15.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/71oDqCywsOL._AC_UY327_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £30.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                    <div class="pro">
+                        <img id="ooo" src="https://m.media-amazon.com/images/I/71hXLrXwBJL._AC_UY327_FMwebp_QL65_.jpg"
+                            alt="">
+                        <hr>
+                        <p class="prob">
+                            Sponsored
+                        </p>
+                        <p class="ppp">
+                            The Ultimate Ninja Dual Zone Air <br> Fryer Cookbook UK 2024: 1900 Days Delicious & Healthy
+                            Ninja
+                            Air Fryer
+                            Recipes for Beginners and Advanced Breakfast, ... Poultry, Beef, Snacks, Desserts & More
+                            by Kelly Franklin
+                        </p>
+                        <h5 class="st">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </h5>
+                        <h5 class="lol">
+                            Paperback
+                        </h5>
+                        <h4 class="kl">
+                            £55.40
+                        </h4>
+                        <p class="pol">
+                            Save 5% on any 4 qualifying items
+                        </p>
+                        <h4 class="aw">
+                            £30.78 delivery
+                        </h4>
+                        <p class="lop">
+                            Delivers to Pakistan
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="foottop">
+            <a class="top" href="#section">Back to Top</a>
+        </div>
+        <div class="footcen">
+            <div class="p1">
+                <h3 class="cl1">
+                    Get to Know Us
+                </h3>
+                <li>Careers</li>
+                <li>About Us</li>
+                <li>UK Modern Slavery <br> Statement</li>
+                <li>Amazon Science</li>
+            </div>
+            <div class="p2">
+                <h3 class="cl1">
+                    Sell on Amazon
+                </h3>
+                <li>Sell on Amazon Business</li>
+                <li>Sell on Amazon Handmade</li>
+                <li>Associates Programme</li>
+                <li>Fulfilment by Amazon</li>
+                <li>Seller Fulfilled Prime</li>
+                <li>Advertise Your Products</li>
+                <li>Independently Publish <br> with Us</li>
+                <li>Amazon Pay</li>
+                <li>Host an Amazon Hub</li>
+                <li>›See More Make Money <br> with Us</li>
+            </div>
+            <div class="p3">
+
+
+                <h3 class="cl1">
+                    Amazon Payment <br> Methods
+                </h3>
+                <li>The Amazon Barclaycard</li>
+                <li>Credit Card</li>
+                <li>Amazon Money Store</li>
+                <li>Gift Cards</li>
+                <li>Amazon Currency Converter</li>
+                <li>Payment Methods Help</li>
+                <li>Shop with Points</li>
+                <li>Top Up Your Account</li>
+                <li>Top Up Your Account in Store</li>
+
+            </div>
+            <div class="p4">
+
+                <h3 class="cl1">
+                    Let Us Help You
+                </h3>
+                <li>COVID-19 and Amazon</li>
+                <li>Track Packages or <br> View Orders</li>
+                <li>Delivery Rates & Policies</li>
+                <li>Returns & Replacements</li>
+                <li>Recycling</li>
+                <li>Manage Your Content <br> and Devices</li>
+                <li>Amazon Mobile App</li>
+                <li>Customer Service</li>
+                <li>Accessibility</li>
+            </div>
+
+        </div>
+        <div class="footmc">
+            <img id="amwa" src="Amazon-Logo-White-PNG-Image.png" alt="">
+            <div class="n">
+                <p class="to">
+                    £ GBP-Pounds
+                </p>
+            </div>
+            <div class="ny">
+                <img id="aq" src="download.jpeg" alt="">
+                <P class="fn">
+                    UNITED KINGDOM
+                </P>
+            </div>
+        </div>
+
+        <!-- last code  -->
+
+        <div class="lastbox">
+            <div class="dis">
+                <div class="lastm">
+                    <div class="mnb">
+                        <h4 class="l">
+                            Amazon Music
+                        </h4>
+                        <li>Stream millions</li>
+                        <li>of songs</li>
+                    </div>
+                    <div class="mnb">
+                        <h4 class="l">
+                            Amazon Web Services
+                        </h4>
+                        <li>Scalable Cloud</li>
+                        <li>Computing Services</li>
+                    </div>
+                    <div class="mnb">
+                        <h4 class="l">
+                            IMDb
+                        </h4>
+                        <li>Movies, TV</li>
+                        <li> & Celebrities</li>
+                    </div>
+                </div>
+                <div class="lolo">
+                    <div class="l2">
+                        <h4 class="l">
+                            AbeBooks
+                        </h4>
+                        <li> Books, art</li>
+                        <li> & collectables</li>
+                    </div>
+                    <div class="l2">
+                        <h4 class="l">
+                            Audible
+
+                        </h4>
+                        <li>Download Audiobooks</li>
+                    </div>
+                    <div class="l2">
+                        <h4 class="l">
+                            Kindle Direct Publishing
+                        </h4>
+                        <li>Indie Digital & Print Publishing</li>
+                        <li> Made Easy</li>
+                    </div>
+                    <div class="l2">
+                        <h4 class="l">
+                            Amazon Business
+                        </h4>
+                        <li>Service for</li>
+                        <li>business customers</li>
+                    </div>
+                </div>
+
+
+                <div class="lo">
+                    <div class="l3">
+                        <h4 class="l">
+                            ACX
+                        </h4>
+                        <li>
+                            Audiobook Publishing
+                        </li>
+                        <li> Made Easy</li>
+                    </div>
+                    <div class="l3">
+                        <h4 class="l">
+                            GoodReads
+                        </h4>
+                        <li> Book reviews</li>
+                        <li>& recommendations</li>
+                    </div>
+                    <div class="l3">
+                        <h4 class="l">
+                            Shopbop
+                        </h4>
+                        <li>Designer</li>
+                        <li>Fashion Brands</li>
+                    </div>
+                </div>
+
+                <div class="loolp">
+                    <div class="l3">
+                        <h4 class="l">
+                            Veeqo
+                        </h4>
+                        <li>Shipping Software</li>
+                        <li>Inventory Management</li>
+                    </div>
+                    <div class="l3">
+                        <h4 class="l">
+                            Amazon Home Services
+                        </h4>
+                        <li>Experienced pros </li>
+                        <li>Happiness Guarantee</li>
+                    </div>
+                    <div class="l3">
+                        <h4 class="l">
+                            Amazon Resale
+                        </h4>
+                        <li>Great Deals on</li>
+                        <li> Quality Used Products</li>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mcb">
+                <div class="mcv">
+                    <a class="lam" href="#">Conditions of Use & Sale </a>
+                    <a class="lam" href="#">Privacy Notice</a>
+                    <a class="lam" href="#">Cookies Notice</a>
+                    <a class="lam" href="#">Interest-Based Ads Notice</a>
+                </div>
+            </div>
+
+            <div class="r">
+                <p class="x">
+                    © 1996-2024, Amazon.com, Inc. or its affiliates
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
